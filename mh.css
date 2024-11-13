@@ -4,8 +4,49 @@
     box-sizing: border-box;
 }
 nav{
-    background-color: rgba(112, 53, 53, 0.733);
+    background-color: rgb(82, 15, 15);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 110px;
+}   
+#navlogo{
+    width: 150px;
+    margin-top: 13px;
+    
 }
-nav img{
-    width: 20%;
+img{
+    max-width: 100%;
+}
+nav ul{
+    color: beige;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+#section1{
+    background-image: url(./Imagenes/fondorathalos.jpg);
+    background-size: contain;
+}
+#logow img{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+#plats img{
+    width: 60px;
+}
+#plats{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 10px;
 }
