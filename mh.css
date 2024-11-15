@@ -33,10 +33,13 @@ nav ul{
     justify-content: space-between;
     list-style: none;
     padding: 10px;
+    font-family: "Markazi Text", serif;
+    font-size: 25px;
 }
 a{
     text-decoration: none;
     color: beige;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);
 }
 #section1{
     background-image: url(./Imagenes/fondorathalos.jpg);
@@ -53,13 +56,12 @@ a{
     width: 80px;
 }
 #plataformas{
-    display: inline-block;
     align-items: center;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 #logow{
     display: flex;
@@ -71,6 +73,7 @@ a{
     font-size: 30px;
     margin-left: 20px;
     font-family: "Markazi Text", serif;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);
 }
 #historia{
     background-image: url(./Imagenes/fondovelkhana.jpg);
@@ -84,9 +87,88 @@ a{
     color: beige;
     font-size: 29px;
     font-family: "Markazi Text", serif;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);
 }
 #armonstruos{
     background-image: url(./Imagenes/fondoarmas.jpg);
     background-size: cover;
     height: 110vh;
+    display: flex;
+    justify-content: space-between;
+}
+#armas img{
+    width: 180px;
+}
+#armas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: center;
+}
+#monstruos img{
+    width: 270px;
+}
+#monstruos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: center;
+}
+#listarm{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    font-family: "Markazi Text", serif;
+    color: beige;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);  
+}
+#listarm div{
+    width: 28%;  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#textarm{
+    height: 10vh;
+    padding: 20%;
+    color: beige;
+    font-family: "Markazi Text", serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+}
+#listmon{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    font-family: "Markazi Text", serif;
+    color: beige;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);  
+}
+#listmon div{
+    width: 28%;  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#textmon{
+    height: 10vh;
+    padding: 19%;
+    color: beige;
+    font-family: "Markazi Text", serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
 }
