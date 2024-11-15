@@ -20,8 +20,7 @@ nav{
 }   
 #navlogo{
     width: 150px;
-    margin-top: 13px;
-    
+    margin-top: 13px;    
 }
 img{
     max-width: 100%;
@@ -45,6 +44,7 @@ a{
     background-image: url(./Imagenes/fondorathalos.jpg);
     background-size: cover;
     background-position: center;
+    max-height: 100%;
 }
 #logow img{
     width: 400px;
@@ -79,6 +79,7 @@ a{
     background-image: url(./Imagenes/fondovelkhana.jpg);
     background-size: cover;
     height: 110vh;
+    max-height: 100%;
 }
 #historia div{
     margin-right: 67%;
