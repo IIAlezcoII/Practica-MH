@@ -173,3 +173,15 @@ a{
     font-size: 35px;
     text-shadow: 3px 3px 4px rgb(5, 1, 2);
 }
+section#bosque{
+    background-image: url(./Imagenes/bosque.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    height: 100vh;
+}
+section#altiplanos{
+    background-image: url(./Imagenes/altiplanos.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    height: 100vh;
+}
