@@ -9,13 +9,18 @@ header{
 }
 footer{
     height: 7vh;
-    background-color: rgb(82, 15, 15);
+    background-color: rgb(29, 8, 8);
     color: beige;
     font-family: "Markazi Text", serif;
     text-shadow: 2px 2px 3px rgb(5, 1, 2);
     font-size: 24px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 auto;
+    -webkit-mask-image: url("./Imagenes/grit.png24");
+    mask-image: url("./Imagenes/grit.png24");
     
 }
 footer img{
@@ -25,11 +30,11 @@ footer img{
     
 }
 footer ul{
-    display: inline-block;
     display: flex;
     flex-direction: row;
     list-style: none;
-    width: 5%;
+    justify-content: space-between;
+    padding: 10px;
 }
 nav{
     background-color: rgb(82, 15, 15);
@@ -62,28 +67,38 @@ a{
     color: beige;
     text-shadow: 2px 2px 3px rgb(5, 1, 2);
 }
+#navlogo img{
+    -webkit-filter: drop-shadow(5px 5px 5px #fff);
+    filter: drop-shadow(5px 5px 5px #fff);
+}
 #section1{
     background-image: url(./Imagenes/fondorathalos.jpg);
     background-size: cover;
     background-position: center;
-    max-height: 100%;
+    max-height: 100vh;
+    height: 90vh;
 }
 #logow img{
     width: 400px;
     display: flex;
     justify-content: center;
     margin-top: 15%;
+    -webkit-filter: drop-shadow(15px 15px 15px #ffffff);
+    filter: drop-shadow(15px 15px 15px #ffffff);
 }
 #plataformas img{
     width: 80px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 #plataformas{
     align-items: center;
     display: flex;
-    justify-content: center;
+    
     justify-content: space-between;
     margin-left: 400px;
     margin-right: 400px;
+    margin-top: 125px;
 }
 #logow{
     display: flex;
@@ -96,6 +111,7 @@ a{
     margin-left: 20px;
     font-family: "Markazi Text", serif;
     text-shadow: 2px 2px 3px rgb(5, 1, 2);
+    margin-top: 70px;
 }
 #historia{
     background-image: url(./Imagenes/fondovelkhana.jpg);
@@ -157,6 +173,8 @@ a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-filter: drop-shadow(10px 10px 10px #ffffff);
+    filter: drop-shadow(10px 10px 10px #fffefe);
 }
 #textarm{
     height: 10vh;
@@ -186,6 +204,8 @@ a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 #textmon{
     height: 10vh;
@@ -217,7 +237,7 @@ section#altiplanos{
     color: beige;
     font-family: "Markazi Text", serif;
     font-size: 28px;
-    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    text-shadow: 5px 5px 5px rgb(5, 1, 2);
     width: 60%;
     margin-left: 50px;
 }
@@ -236,4 +256,15 @@ section#altiplanos{
     justify-content: center;
     margin-top: 120px;
     justify-content: space-evenly;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+    z-index: 0;
+}
+.linea{
+    background: url(./Imagenes/linea.png);
+    height: 9px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: block;
 }
