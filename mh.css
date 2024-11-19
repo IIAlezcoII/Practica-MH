@@ -7,6 +7,30 @@ header{
     position: sticky;
     top: 0;
 }
+footer{
+    height: 7vh;
+    background-color: rgb(82, 15, 15);
+    color: beige;
+    font-family: "Markazi Text", serif;
+    text-shadow: 2px 2px 3px rgb(5, 1, 2);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+footer img{
+    width: 100px;
+}
+#capcom{
+    
+}
+footer ul{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 5%;
+}
 nav{
     background-color: rgb(82, 15, 15);
     margin: 0 auto;
@@ -14,8 +38,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    height: 110px;
-    
+    height: 110px;  
 }   
 #navlogo{
     width: 150px;
