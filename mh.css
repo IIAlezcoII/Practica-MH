@@ -6,6 +6,7 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 footer{
     height: 7vh;
@@ -44,6 +45,7 @@ nav{
     align-items: center;
     padding: 15px;
     height: 110px;  
+
 }   
 #navlogo{
     width: 150px;
@@ -258,7 +260,6 @@ section#altiplanos{
     justify-content: space-evenly;
     -webkit-filter: drop-shadow(5px 5px 5px #000000);
     filter: drop-shadow(5px 5px 5px #000000);
-    z-index: 0;
 }
 .linea{
     background: url(./Imagenes/linea.png);
@@ -267,4 +268,46 @@ section#altiplanos{
     left: 0;
     right: 0;
     display: block;
+}
+body#descubre{
+    background: url(./Imagenes/fondodescubre.jpg_large);
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+    color: beige;
+    font-family: "Markazi Text", serif;
+    font-size: 15px;
+}
+#descubremain img{
+    max-width: 300px;
+    max-height: 350px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+    margin-right: 20px;
+    
+}
+section#herramientas{
+    height: 85vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+.divherr{
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    margin: 0 auto;
+    font-size: 25px;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    flex-wrap: wrap;
+    
+}
+.divherr h2{
+    display: inline-block;
+    font-size: 28px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.divherr p{
+    width: 70%;
 }
