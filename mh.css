@@ -287,7 +287,7 @@ body#descubre{
     
 }
 section#herramientas{
-    height: 85vh;
+    height: 95vh;
     width: 90vw;
     margin: 0 auto;
 }
@@ -310,4 +310,38 @@ section#herramientas{
 }
 .divherr p{
     width: 70%;
+}
+section > h2{
+    font-size: 32px;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+section#novedades{
+    height: 95vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+section#coleccion{
+    height: 95vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+div.divnov{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    font-size: 27px;
+    height: 52%;
+}
+div#columnas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
