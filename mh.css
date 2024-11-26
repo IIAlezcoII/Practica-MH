@@ -20,8 +20,7 @@ footer{
     justify-content: space-between;
     padding: 15px;
     margin: 0 auto;
-    -webkit-mask-image: url("./Imagenes/grit.png24");
-    mask-image: url("./Imagenes/grit.png24");
+    
     
 }
 footer img{
@@ -34,9 +33,12 @@ footer ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
-    padding: 10px;
+    margin: 0 auto;
 }
+footer ul li{
+    margin: 19px;
+}
+
 nav{
     background-color: rgb(82, 15, 15);
     margin: 0 auto;
@@ -350,7 +352,7 @@ div.columnas{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 90%;
 }
 .divnov img{
     transition: transform 0.3s ease-in-out;
