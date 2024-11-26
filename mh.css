@@ -139,6 +139,7 @@ a{
     height: 110vh;
     display: flex;
     justify-content: space-between;
+    backdrop-filter: blur(3px) saturate(90%);
 }
 #armas img{
     width: 180px;
@@ -224,19 +225,22 @@ section#bosque{
     background-image: url(./Imagenes/bosque.jpg);
     background-size: cover;
     max-height: 100vh;
-    height: 100vh;   
+    height: 100vh;  
+    backdrop-filter: blur(1px) saturate(100%); 
 }
 section#altiplanos{
     background-image: url(./Imagenes/altiplanos.jpg);
     background-size: cover;
     max-height: 100vh;
     height: 100vh;
+    backdrop-filter: blur(1px) saturate(100%);
 }
 #valle{
     background-image: url(./Imagenes/valleputre.jpg);
     background-size: cover;
     max-height: 100vh;
     height: 100vh;
+    backdrop-filter: blur(1px) saturate(100%);
 }
 .textmapas{
     color: beige;
@@ -280,6 +284,7 @@ body#descubre{
     color: beige;
     font-family: "Markazi Text", serif;
     font-size: 15px;
+    backdrop-filter: blur(1px) saturate(100%);
 }
 #descubremain img{
     max-width: 300px;
@@ -301,8 +306,7 @@ section#herramientas{
     margin: 0 auto;
     font-size: 25px;
     text-shadow: 3px 3px 4px rgb(5, 1, 2);
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .divherr h2{
     display: inline-block;
@@ -360,7 +364,7 @@ div.columnas{
     margin: 0 auto;
     color: beige;
     font-family: "Markazi Text", serif;
-    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    text-shadow: 5px 5px 6px rgb(5, 1, 2);
 }
 #logborne{
     width: 30%;
@@ -375,23 +379,141 @@ body#bodyborne{
     background-attachment: fixed;
     max-height: 100vh;
     height: 100vh;
+    backdrop-filter: blur(1px) saturate(100%);
 }
 .cartas div{
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 250px;
     flex: 1;
     cursor: pointer;
     transition: all 0.8s ease;
-    border: 2px solid #ffffff63;
-    border-radius: 10px;
     filter: blur(3px);
+    align-items: center;
+    margin-left: 120px;
 }
 .cartas div img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: 3px;
+    border: 2px solid #00000063;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 .cartas div:hover{
-    flex: 3;
+    flex: 2;
     filter: blur(0px);
+    transform: scale(1.1);
+}
+.bornemonsters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 40vh;
+    font-size: 30px;
+    backdrop-filter: blur(15px) saturate(90%);
+}
+.icemonsters{
+    display: flex;
+    align-items: center;
+}
+div.funcborne{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    text-shadow: 3px 3px 4px rgb(5, 1, 2);
+    font-size: 23px;
+    height: 65%;
+    backdrop-filter: blur(4px) saturate(90%);
+}
+.funcborne img{
+    transition: transform 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.funcborne:hover img{
+    transform: scale(1.1);
+}
+#logborne{
+    width: 30vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+#logborne img{
+    width: 90%;
+    display: flex;
+}
+#introborne{
+    width: 80vw;
+    height: 40vh;
+    text-align: center;
+    margin: 0 auto;
+}
+#introborne h1{
+    font-size: 50px;
+    backdrop-filter: blur(15px) saturate(90%);
+}
+#introborne p{
+    font-size: 30px;
+    backdrop-filter: blur(15px) saturate(90%);
+}
+#introborne a{
+    border: 2px solid #7c7979c4;
+    border-radius: 30px;
+    padding: 10px 15px;
+    padding: 20px;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: larger;
+    background-color: #444242;
+}
+.select-dropdown,
+.select-dropdown * {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.select-dropdown {
+  position: relative;
+  background-color: #E6E6E6;
+  border-radius: 4px;
+}
+.select-dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  appearance: none;
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.select-dropdown:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
 }
