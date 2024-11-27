@@ -92,7 +92,12 @@ a{
     width: 80px;
     -webkit-filter: drop-shadow(5px 5px 5px #000000);
     filter: drop-shadow(5px 5px 5px #000000);
+    transition: transform 0.3s ease-in-out;
 }
+#plataformas img:hover{
+    transform: scale(1.1);
+}
+
 #plataformas{
     align-items: center;
     display: flex;
@@ -115,6 +120,16 @@ a{
     text-shadow: 2px 2px 3px rgb(5, 1, 2);
     margin-top: 70px;
 }
+#trailer img{
+    transition: transform 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+
+#trailer img:hover{
+    transform: scale(1.1);
+}
+
 #historia{
     background-image: url(./Imagenes/fondovelkhana.jpg);
     background-size: cover;
@@ -140,7 +155,12 @@ a{
 }
 #armas img{
     width: 180px;
+    transition: transform 0.3s ease-in-out;
 }
+#armas img:hover{
+    transform: scale(1.1);
+}
+
 #armas{
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +169,12 @@ a{
 }
 #monstruos img{
     width: 270px;
+    transition: transform 0.3s ease-in-out;
 }
+#monstruos img:hover{
+    transform: scale(1.1);
+}
+
 #monstruos{
     display: flex;
     flex-wrap: wrap;
@@ -265,6 +290,14 @@ section#altiplanos{
     -webkit-filter: drop-shadow(5px 5px 5px #000000);
     filter: drop-shadow(5px 5px 5px #000000);
 }
+.gifsmapas img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.gifsmapas img:hover{
+    transform: scale(1.1);
+}
+
 .linea{
     background: url(./Imagenes/linea.png);
     height: 9px;
@@ -289,7 +322,10 @@ body#descubre{
     -webkit-filter: drop-shadow(5px 5px 5px #000000);
     filter: drop-shadow(5px 5px 5px #000000);
     margin-right: 20px;
-    
+    transition: transform 0.3s ease-in-out;
+}
+#descubremain img:hover{
+    transform: scale(1.1);
 }
 section#herramientas{
     height: 95vh;
@@ -467,7 +503,7 @@ div.funcborne{
     font-size: 30px;
     backdrop-filter: blur(15px) saturate(90%);
 }
-#introborne a{
+.botone{
     border: 2px solid #7c7979c4;
     border-radius: 30px;
     padding: 10px 15px;
@@ -478,7 +514,7 @@ div.funcborne{
     background-color: #444242;
     transition: transform 0.3s ease-in-out;
 }
-#introborne a:hover{
+.botone:hover{
     transform: scale(1.1);
 }
 .select-dropdown,
@@ -561,9 +597,117 @@ div.funcborne{
     gap: 10px;
 }
 form input{
-    padding: 6px;
+    padding: 15px;
     width: 80%;
+    border: none;
+    color: grey;
+    border-radius: 50px;
 }
 #submit{
     width: 20%;
+    transition: transform 0.3s ease-in-out;
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+.hr{
+    border: 4px solid #f5f5dc;
+    border-radius: 5px;
+    width: 60%;
+}
+#edadid{
+    border-radius: 5px;
+    padding: 3px;
+}
+.faqs{
+    width: 70%;
+    margin-left: 20px;
+    padding: 40px;
+    font-size: 23px;
+    
+}
+.faqsdiv{
+    padding: 10px;
+}
+.faqsdiv hr{
+    border: 2px solid #f5f5dc;
+    border-radius: 2px;
+    width: 100%;
+}
+.noticias{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.new{
+    width: 28%;
+    
+}
+.new img{
+    width: 85%;
+    margin-bottom: 10px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+    transition: transform 0.3s ease-in-out;
+}
+.new img:hover{
+    transform: scale(1.1);
+}
+.comprar{
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+}
+.buy{
+    width: 28%;
+    align-items: center;
+    margin: 0 auto;
+}
+.collector img{
+    width: 90%;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.collector img:hover{
+    transform: scale(1.1);
+}
+.comprare{
+    border: 2px solid #7c7979c4;
+    border-radius: 30px;
+    padding: 7px 7px;
+    padding: 7px;
+    margin-top: 7px;
+    display: inline-block;
+    background-color: #444242;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
+}
+.comprare:hover{
+    transform: scale(1.1);
+}
+.collector hr{
+    border: 2px solid #f5f5dc;
+    border-radius: 2px;
+    width: 100%;
+    margin: 10px;
+}
+.collector p{
+    font-size: 40px
+}
+.collector li{
+    list-style: none;
 }
