@@ -243,6 +243,83 @@ a{
     font-size: 35px;
     text-shadow: 3px 3px 4px rgb(5, 1, 2);
 }
+
+@media screen and (max-width: 1200px) {
+    header{
+        display: none;
+    }
+    section#historia div{
+        font-size: 26px;
+        width: 50%;
+    }
+    #armonstruos{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #armas{
+        width: 100vw;
+    }
+    #textarm{
+        font-size: 47px;
+        text-align: center;
+    }
+    #monstruos{
+        width: 100vw;
+    }
+    #textmon{
+        font-size: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    section#historia div{
+        font-size: 26px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #textarm{
+        font-size: 26px;
+    }
+    #textmon{
+        font-size: 26px;
+    }
+    section#historia div{
+        font-size: 25px;
+        width: 50%;
+    }
+    #listmon div{
+        width: 45%;
+    }
+    #listarm div{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    section#historia div{
+        font-size: 23px;
+        width: 50%;
+    }
+    #textmon{
+        font-size: 26px;
+    }
+    #textarm{
+        font-size: 26px;
+    }
+}
+
+
+/* FIN PAG PRINCIPAL */
+
+
 section#bosque{
     background-image: url(./Imagenes/bosque.jpg);
     background-size: cover;
